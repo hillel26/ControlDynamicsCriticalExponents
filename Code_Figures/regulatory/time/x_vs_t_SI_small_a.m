@@ -136,6 +136,6 @@ xlabel('\boldmath$t$','Interpreter','latex','FontSize',25);
 
 
 %% save
-filename = ['figs/SI_x_vs_t_a',erase( num2str(a),'.'),'_',NetStruct,'_kappa',num2str(round(kappa)),'_N',num2str(N)];
+filename = ['SI_x_vs_t_a',erase( num2str(a),'.'),'_',NetStruct,'_kappa',num2str(round(kappa)),'_N',num2str(N)];
 saveas(gcf,filename)
 
